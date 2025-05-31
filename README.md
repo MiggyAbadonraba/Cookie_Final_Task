@@ -14,6 +14,22 @@ docker-compose -p choco-cookie up --build
 docker-compose down
 ```
 
+Загрузка образа на DockerHub:
+```bash
+docker push miggyabadocker/cookie-app:latest
+```
+
+Получение контейнеров с репозитория DockerHub:
+```bash
+docker pull miggyabadocker/cookie-app:latest
+```
+
+Запуск контейнера:
+```bash
+docker run -p 8080:8080 miggyabadocker/cookie-app:latest
+```
+
+
 Приложение будет доступно по адресу:
 ```http://localhost:8080```
 
