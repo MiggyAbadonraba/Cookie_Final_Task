@@ -12,6 +12,7 @@ docker-compose -p choco-cookie up --build
 Остановка и удаление контейнеров:
 ```bash
 docker-compose down
+docker rmi -f (ID)
 ```
 
 Загрузка образа на DockerHub:
