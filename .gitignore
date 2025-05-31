@@ -1,0 +1,37 @@
+# Docker,
+/docker.compose.yaml
+/dockerfile
+
+# Templates and static files
+/templates/
+/static/
+
+# Database,
+/db-init/
+/init.sql
+
+# Go modules
+/go.mod
+/go.sum
+
+# Project source files
+/main.go
+/handlers.go
+/models.go
+/pgconnect.go
+
+# Ignore everything else
+*
+!go.mod
+!go.sum
+!*.go
+!.gitignore
+!db-init/
+!db-init/**
+!init.sql
+!dockerfile
+!docker-compose.yaml
+!templates/
+!templates/**
+!static/
+!static/**
