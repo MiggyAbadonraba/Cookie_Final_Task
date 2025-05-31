@@ -1,3 +1,10 @@
+# Docker,
+/docker.compose.yaml
+/dockerfile
+# Database,
+/db-init/
+/init.sql
+
 # Go modules
 /go.mod
 /go.sum
@@ -14,3 +21,9 @@
 !go.sum
 !*.go
 !.gitignore
+
+!db-init/
+!db-init/**
+!init.sql
+!dockerfile
+!docker-compose.yaml
