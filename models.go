@@ -2,6 +2,8 @@ package main
 
 import "time"
 
+//Наши данные, которые будут отправляться в таблицу
+
 type Cookie struct {
 	ID          int       `json:"id"`
 	Name        string    `json:"name"`
