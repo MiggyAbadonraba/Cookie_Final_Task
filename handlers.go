@@ -37,7 +37,7 @@ func ShutdownHandler(srv *http.Server) http.HandlerFunc {
 func HomeHandler(db *sql.DB, tmpl *template.Template) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		if r.Method == http.MethodPost {
-			// … ваш существующий POST-код с log.Printf и INSERT
+
 		}
 		// просто отрисовка страницы (без списка по умолчанию)
 		data := struct {

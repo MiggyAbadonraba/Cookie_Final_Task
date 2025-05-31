@@ -35,3 +35,4 @@
 !templates/**
 !static/
 !static/**
+!style.css
