@@ -1,0 +1,10 @@
+# Templates and static files
+/templates/
+/static/
+# Ignore everything else
+*
+!templates/
+!templates/**
+!static/
+!static/**
+!.gitignore
