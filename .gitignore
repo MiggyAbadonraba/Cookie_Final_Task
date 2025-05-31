@@ -1,0 +1,16 @@
+# Go modules
+/go.mod
+/go.sum
+
+# Project source files
+/main.go
+/handlers.go
+/models.go
+/pgconnect.go
+
+# Ignore everything else
+*
+!go.mod
+!go.sum
+!*.go
+!.gitignore
