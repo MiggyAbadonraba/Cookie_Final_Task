@@ -36,3 +36,5 @@
 !static/
 !static/**
 !style.css
+!LICENSE
+!README.md

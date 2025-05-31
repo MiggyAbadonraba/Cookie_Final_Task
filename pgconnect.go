@@ -30,7 +30,6 @@ func getEnv(key, def string) string {
 }
 
 // getAddr возвращает адрес для ListenAndServe
-
 func getAddr() string {
 	if addr := os.Getenv("HTTP_ADDR"); addr != "" {
 		return addr
