@@ -1,6 +1,11 @@
 # Docker,
 /docker.compose.yaml
 /dockerfile
+
+# Templates and static files
+/templates/
+/static/
+
 # Database,
 /db-init/
 /init.sql
@@ -21,9 +26,12 @@
 !go.sum
 !*.go
 !.gitignore
-
 !db-init/
 !db-init/**
 !init.sql
 !dockerfile
 !docker-compose.yaml
+!templates/
+!templates/**
+!static/
+!static/**

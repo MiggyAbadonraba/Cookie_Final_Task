@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>CRUD Рецепты шоколадного печенья</title>
+</head>
+<body>
+  <button id="shutdown-btn">🛑 Выключить сервер</button>
+  <h1>Рецепты печенья</h1>
+  <form id="cookie-form">
+    <input type="hidden" name="id" value="">
+    <input type="text" name="name" placeholder="Название" required><br>
+    <textarea name="ingredients" placeholder="Ингредиенты" required></textarea><br>
+    <textarea name="description" placeholder="Описание"></textarea><br>
+    <button type="submit">Сохранить</button>
+  </form>
+
+  <hr>
+
+  <ul id="cookie-list"></ul>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
